@@ -1,0 +1,32 @@
+{
+  "name": "tuvsu-viber-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "nodemon src/index.ts",
+    "build": "rm -rf dist && tsc -p tsconfig.json --traceResolution",
+    "start": "node dist/src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "ts-node": "^10.9.1",
+    "viber-bot": "^1.0.18"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.13",
+    "@types/express": "^4.17.17",
+    "@types/winston": "^2.4.4",
+    "nodemon": "^2.0.22",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.0.4",
+    "winston": "^3.9.0",
+    "winston-console-formatter": "^1.0.0-beta.3"
+  }
+}
