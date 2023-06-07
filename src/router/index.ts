@@ -1,8 +1,8 @@
 import { Router } from "express";
+import { botRouter } from "./bot.router";
 
 const rootRouter = Router();
 
-rootRouter.use();
-rootRouter.use();
+rootRouter.use("/", botRouter);
 
 export default rootRouter;

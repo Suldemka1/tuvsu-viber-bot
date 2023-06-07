@@ -16,3 +16,9 @@ export interface IUserProfile {
   language: "ru" | "en";
   apiVersion: 10;
 }
+
+export interface IViberBot {
+  authToken: string;
+  name: string;
+  avatar: string;
+}
